@@ -14,8 +14,9 @@ RUN apt-get update \
     python3-pip
 
 RUN install2.r --error --deps TRUE \
-    tidyverse \
+    readr \
     dplyr \
+    tidyr \
     devtools
 
 RUN pip3 install vtk
