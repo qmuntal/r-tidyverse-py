@@ -18,6 +18,7 @@ RUN apt-get update \
     libcurl4-openssl-dev \
     libgl1-mesa-glx \
     libsm6 \
+    tk \
     python3.7 \
     python3-pip
 
